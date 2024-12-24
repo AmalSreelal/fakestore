@@ -1,0 +1,32 @@
+.body {
+    font-family: Arial, sans-serif;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: contain;
+    width: 100%;
+    padding: 10px;
+}
+
+.product-card .card-body {
+    text-align: center;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
